@@ -1,11 +1,11 @@
 package com.twitter.poruke;
 /**
  * 
- * @author Marko Kostadinovic
- * @version 1.0 - basic functionality
  * 
  * This class is used for editing of 
  * basic twitter user and message details
+ * @author Marko Kostadinovic
+ * @version 1.0 - basic functionality
  *
  */
 public class TwitterPoruka {
@@ -44,10 +44,10 @@ public class TwitterPoruka {
 	
 	/**
 	 * Get method for poruka attribute
-	 * @return "poruka"
+	 * @return poruka - string which contains the message
 	 */
 	public String getPoruka() {
-	return "poruka";
+	return this.getPoruka();
 	}
 	
 	/**
