@@ -102,7 +102,7 @@ public class TwitterPorukaTest {
 	@Test (expected = java.lang.RuntimeException.class)
 	public void testSetPorukaLong(){
 		por.setPoruka(
-				"twitter is the best social network! twitter is the best social network! twitter is the best social network!");
+				"twitter is the best social network! twitter is the best social network! twitter is the best social network!twitter is the best social network! twitter is the best social network! twitter is the best social network!");
 	}
 	
 	/**
