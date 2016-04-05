@@ -23,6 +23,11 @@ public class TwitterPoruka {
 	 * get method for korisnik attribute
 	 * @return korisnik - String which contains user name
 	 */
+	public TwitterPoruka(){}
+	public TwitterPoruka(String korisnik, String poruka){
+		setKorisnik(korisnik);
+		setPoruka(poruka);
+	}
 	public String getKorisnik() {
 	return korisnik;
 	}
