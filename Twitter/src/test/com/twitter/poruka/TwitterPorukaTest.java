@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.twitter.testUnits;
+package test.com.twitter.poruka;
 
 import static org.junit.Assert.*;
 
